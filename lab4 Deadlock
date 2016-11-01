@@ -1,7 +1,0 @@
-##lab4 Deadlock死锁
-###实验流程
-1.将PPT上关于死锁的代码加入到Deadlock.java文件中，代码内容如下图所示：  
-![Deadlock.java文件内容](https://ooo.0o0.ooo/2016/11/01/5818768cb3e4c.jpg)  
-2.在cmd中运行，进入到Deadlock.java文件中，使用javac Deadlock.java指令编译.java文件  
-3.Windows系统下，把PPT上的.bat代码敲到记事本里，然后保存为.bat，将该批处理文件放在java程序（Deadlock.class）目录下，双击运行，观察结果。
-（该.bat文件的作用就是让这个程序跑一百遍，通常情况下，跑个几十遍就会停的像这样：跑到第49次就停了，多少次停是随机的，调节程序中count值，使其发生死锁。
